@@ -33,7 +33,7 @@ app.get("/", function (req, res) {
 app.get("/delay", function (req, res) {
 	"use strict";
 
-	var delay = 2000,
+	var delay = 2500,
 	result = {
 		ok: true,
         status: 200,
